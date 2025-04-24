@@ -2,17 +2,17 @@
 
 
 let input = prompt("Write Head / Tail") // variable to take user input
-// console.log(input.toLowerCase());
+console.log(input.toLowerCase());
 
 let announce = input.toLowerCase();  //variable to change user input to lowercase
 
 
 
-if (input == "head" || input == "tail") {        //if input is head or tail then it returns the if block
+if (announce == "head" || input == "tail") {        //if input is head or tail then it returns the if block
 
 
 
-    if (input == "head") {                        //nested if block returns when head is input
+    if (announce == "head") {                        //nested if block returns when head is input
         let win = Math.ceil(Math.random())
 
         console.log("Congratulations! You Win this game")
@@ -21,7 +21,7 @@ if (input == "head" || input == "tail") {        //if input is head or tail then
 
     else {                                         //nested else block when input id tail
         
-        if (input == "tail") {                     // nested if in else block
+        if (announce == "tail") {                     // nested if in else block
 
             let winLoose = Math.ceil(Math.random() * 3)  //variable to set condition using Math.ceil and Math.random Methods
             
