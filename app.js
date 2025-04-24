@@ -8,7 +8,7 @@ let announce = input.toLowerCase();  //variable to change user input to lowercas
 
 
 
-if (announce == "head" || input == "tail") {        //if input is head or tail then it returns the if block
+if (announce == "head" || announce == "tail") {        //if input is head or tail then it returns the if block
 
 
 
